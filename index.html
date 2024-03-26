@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!--Metadatos-->
+    <meta charset="utf-8">
+    <meta name="author"Content="Jane Doe">
+    <meta name="description" content="Portafolio de desarrollo">
+    <meta name="keywords" content="HTML,CSS,JavaScript, React">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!--Titulo-->
+    <title>Kendal desarrollo Web</title>
+    <!--Favicon-->
+      <link rel="icon" type="image/x-icon"href="imagenes/icono.png">
+
+    <!--Boostrap-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+   
+   <!--css-->
+
+   <link href="style.css" rel="stylesheet">
+   <!--Google font-->
+   <link rel="preconnect" href="https://fonts.googleapis.com">
+   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+   <link href="https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap" rel="stylesheet">
+  </head>
+  <body>
+    <!--barra de navegacion-->
+    <nav class="navbar navbar-expand-md navabar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#"> 
+            <img src="imagenes/icono.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Sobre mi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Seccion hero-->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador"   src="imagenes/kendal.jpg" alt="Foto de kendal">
+        <h1>Hola, soy kendal Benavides</h1>
+        <h2>Ingeniero en sistemas</h2>
+      </div>
+
+      <div class="hero-inferior">        
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/programacion.jpeg" alt="Monitor, laptop y logos de html">
+
+      </div>
+    </section>
+    <!--Sobre mi-->
+    <section class="sobre-mi seccion-oscura">
+      <div class="contenedor">
+
+        <h2 class="seccion-titulo">Conoce a kendall</h2>
+        <p class="seccion-texto">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc varius orci a suscipit sodales. Vestibulum tincidunt nibh quis congue euismod. Nulla semper luctus ligula, at luctus nibh. Suspendisse nec nibh non sem cursus tempus. Maecenas nec turpis in ipsum lobortis blandit a sed risus. Integer auctor vel leo ac rhoncus. Praesent massa erat, vehicula at neque nec, interdum rhoncus urna. Integer fermentum commodo lacinia. Proin quis lectus eget magna euismod laoreet. Donec vitae fermentum dui, in aliquet lorem. In hac habitasse platea dictumst.</p>
+
+      </div>
+    </section>
+<!--Experiencia-->
+
+    <section class="experiencia seccion-clara">
+      <div class="container text-center">
+        <div class="row">
+          <!--Desarrollo web-->
+          <div class=" columna col-12 col-md-4">
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Lenguajes de programación</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">HTML</span>
+              <span class="badge text-bg-primary">CSS</span>
+              <span class="badge text-bg-primary">JavaScript</span>
+              <span class="badge text-bg-primary">C#</span>
+            </div>
+
+
+
+          </div>
+          <!--Articulos-->
+          <div class="columna col-12 col-md-4">
+
+            <i class="bi bi-laptop"></i>
+            <p class="experiencia-titulo">Habilidades</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Comunicación</span>
+              <span class="badge text-bg-primary">Trabajo en equipo</span>
+              <span class="badge text-bg-primary">Amabilidad</span>
+              
+            </div>
+
+
+
+          </div>
+          <!--Estudiante-->
+          <div class="columna  col-12 col-md-4">
+
+            <i class="bi bi-backpack"></i>
+            <p class="experiencia-titulo">Estudios</p>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-primary">Ingeneria en sistemas</span>
+              <span class="badge text-bg-primary">Informatica empresarial</span>
+              <span class="badge text-bg-primary">Tecnico CCTV</span>
+              <span class="badge text-bg-primary">Ingles B1</span>
+            </div>
+
+
+          </div>
+        </div>
+      </div>
+
+    </section>
+
+  
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+  </body>
+</html>
